@@ -1,0 +1,40 @@
+{
+  "name": "stamtraet",
+  "version": "0.0.0",
+  "description": "En hjemmeside til visning af Thisted-familiens stamtrae, som udarbejdet af Lis Rehn Thisted. Lavet i NodeJS med MongoDB",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "chai": "^3.2.0",
+    "express": "^4.13.3",
+    "gridfs-stream": "^1.1.1",
+    "mongoose": "^4.1.5",
+    "uuid": "^2.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.0"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thojbaek/stamtraet.git"
+  },
+  "keywords": [
+    "stamtrae",
+    "node",
+    "mongo",
+    "thisted"
+  ],
+  "author": "Thomas Thisted Hoejbaek <thojbaek@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thojbaek/stamtraet/issues"
+  },
+  "homepage": "https://github.com/thojbaek/stamtraet"
+}
